@@ -2,14 +2,178 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins"
-      rel="stylesheet"
-    />
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"/>
+
   </head>
 
   <body>
-    <!-- write some HTML! -->
+  <div class="all">
+    <header class="header"> 
+      <div class="logo-icon">
+          <a class="mobile-logo-img" href="#"></a><img class="mobile-logo" src="imgs/logo.svg" height="50vw"></a>
+      </div>
+      <nav>
+        <div class="mobile-nav">
+          <div class="dropdown">
+            <div class="drop-btn"><img src="imgs/menu.svg" height="50vw" alt="menu icon"></div> 
+          </div>
+        </div>
+        <div class="dropdown-content">
+          <ul class="menu-list-mobile">
+            <li class="menu-item"><a href="#features">Features</a></li>
+            <li class="menu-item"><a href="#advantages">Advantages</a></li>
+            <li class="menu-item"><a href="#gallery">Gallery</a></li>
+            <li class="menu-item"><a href="#products">Products</a></li>
+          </ul>
+        </div>
+        <div class="desktop-nav">
+            <ul class="menu-list-desktop">
+                <li class="menu-item"><a href="#features">Features</a></li>
+                <li class="menu-item"><a href="#advantages">Advantages</a></li>
+                <li class="menu-item"><a href="#gallery">Gallery</a></li>
+                <li class="menu-item"><a href="#products">Products</a></li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+    <section class="hero">
+      <div class="hero-text">
+        <h1 class="hero-title">Introducing falcon 9</h1>
+        <div class="overlay">
+          <h2 class="heroh2">We make dreams come true</h2>
+          <p class="hero-p-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
+          <div class="hero-p">
+          <p class="hero-p-desktop1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          <p class="hero-p-desktop2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          </div>
+        </div> 
+      </div>
+    </section>
+    <section class="features" id="features">
+      <div class="card card1">
+        <div class="feature-img-div img1">
+          <img class="feature-img" src="imgs/icon_check.svg" width="100%"/>
+        </div>
+        <h3 class="feature-title">Amazing feature 1</h3>
+        <p class="feature-content fc1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet.</p>
+        <button class="feature-btn">Get it</button>
+      </div>
+      <div class="card card2">
+        <div class="feature-img-div">
+          <img class="feature-img" src="imgs/icon_reload.svg" width="100%"/>
+        </div>
+        <h3 class="feature-title">Amazing feature 2</h3>
+        <p class="feature-content">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <button class="feature-btn">Sell it</button>
+      </div>
+      <div class="card card3">
+        <div class="feature-img-div">
+          <img class="feature-img" src="imgs/icon_fingerprint.svg" width="100%"/>
+        </div>
+        <h3 class="feature-title">Amazing feature 3</h3>
+        <p class="feature-content">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <button class="feature-btn">Do it</button>
+      </div>
+    </section>
+    <section class="cool" id="advantages">
+      <h2 class="coolhead">Some cool text</h2>
+      <p class="coolp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    </section>
+    <section class="cool-box">
+      <h3 class="cool-box-h3">This looks cool</h3>
+      <p class="cool-box-p">Hover me if you like random animations</p>
+    </section>
+    <section class="gradient">
+      <h2 class="gradienth2">Slick gradient</h2>
+      <p class="gradientp">Lorem ipsum?</p>
+    </section>
+    <section class="pic-area" id="gallery">
+      <div class="pic pic-div1">
+        <img class="picimg picimg1" src="imgs/tesla.jpg" width="100%" alt=""/>
+        <div class="pic-text-div">
+          <h3 class="pic-text">Our flagship model is the IS</h3>
+        </div>
+        </div>
+      <div class="pic pic-div2">
+        <img class="picimg" src="imgs/procat.jpg" width="100%" alt=""/>
+        <div class="pic-text-div">
+          <h3 class="pic-text">Cool cat</h3>
+        </div>
+      </div>
+      <div class="pic pic-div3">
+        <img class="picimg" src="imgs/hyperloop.jpg" width="100%" alt=""/>
+        <div class="pic-text-div">
+          <h3 class="pic-text">Intoduction to hyperloop</h3>
+        </div>
+      </div>
+      <div class="pic pic-div4">
+        <img class="picimg" src="imgs/sneakycat.jpg" width="100%" alt=""/>
+        <div class="pic-text-div">
+          <h3 class="pic-text">So sneaky</h3>
+        </div>
+      </div>
+      <div class="pic pic-div5">
+        <img class="picimg" src="imgs/falconrocket.jpeg" width="100%" alt=""/>
+        <div class="pic-text-div">
+          <h3 class="pic-text">BFR - Big falcon rocket</h3>
+        </div>
+      </div>
+      <div class="pic pic-div6">
+        <img class="picimg" src="imgs/funnycat.jpg" width="100%" alt=""/>
+        <div class="pic-text-div">
+          <h3 class="pic-text">So much fun</h3>
+        </div>
+      </div>
+    </section>
+    <section class="register" id="products">
+      <div class="btn-div">
+        <button type="submit" class="submit-btn"><img src="imgs/icon_send.svg"/></button>
+      </div>
+      <label class="label" for="email">Regester for our mailing list:</label>
+      <input type="email" id="email" class="email"/>          
+      <div class="check">
+        <div class="checkborder"></div>
+      <input type="checkbox" id="yes" class="checkbox"/>
+      <label for="yes">Send me daily cat images</label>
+      </div>  
+ 
+    </section>
+    <section class="footer">
+      <div class="foot1">
+        <ul class="foot-list">
+          <li class="foot-item"><a class="footer-link"href="#">About</a></li>
+          <li class="foot-item"><a class="footer-link"href="#">Privacy policy</a></li>
+          <li class="foot-item"><a class="footer-link"href="#">Legal note</a></li>
+          <li class="foot-item"><a class="footer-link"href="#">Copyright</a></li>
+        </ul>
+      </div>
+      <div class="foot2">
+        <ul class="foot-list">
+          <li class="foot-item"><a class="footer-link" href="#">About</a></li>
+          <li class="foot-item"><a class="footer-link" href="#">Privacy policy</a></li>
+          <li class="foot-item"><a class="footer-link" href="#">Legal note</a></li>
+          <li class="foot-item"><a class="footer-link" href="#">Copyright</a></li>
+        </ul>
+      </div>
+      <div class="foot3">
+        <ul class="foot-list">
+          <li class="foot-item"><a class="footer-link" href="#">About</a></li>
+          <li class="foot-item"><a class="footer-link" href="#">Privacy policy</a></li>
+          <li class="foot-item"><a class="footer-link" href="#">Legal note</a></li>
+          <li class="foot-item"><a class="footer-link" href="#">Copyright</a></li>
+        </ul>
+      </div>
+      <div class="foot4">
+        <ul class="foot-list">
+          <li class="foot-item"><a class="footer-link" href="#">About</a></li>
+          <li class="foot-item"><a class="footer-link" href="#">Privacy policy</a></li>
+          <li class="foot-item"><a class="footer-link" href="#">Legal note</a></li>
+          <li class="foot-item"><a class="footer-link" href="#">Copyright</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
   </body>
 </html>
+
